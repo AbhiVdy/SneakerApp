@@ -1,0 +1,128 @@
+[
+  {
+    "id": "1",
+    "brand": "Nike",
+    "colorway": "White",
+    "gender": "Male",
+    "media": {
+      "imageUrl": "https://www.pngall.com/wp-content/uploads/2/White-Sneakers-PNG-Clipart.png",
+      "smallImageUrl": "https://www.pngall.com/wp-content/uploads/2/White-Sneakers-PNG-Clipart.png",
+      "thumbUrl": "https://www.pngall.com/wp-content/uploads/2/White-Sneakers-PNG-Clipart.png"
+    },
+    "releaseDate": "2022-12-15",
+    "retailPrice": 2000,
+    "styleId": "style1",
+    "shoe": "shoe",
+    "name": "Nike Air",
+    "title": "Nike Air",
+    "year": 2019
+  },
+  {
+    "id": "2",
+    "brand": "Nike",
+    "colorway": "White",
+    "gender": "Male",
+    "media": {
+      "imageUrl": "https://www.pngall.com/wp-content/uploads/2/White-Sneakers-PNG-Clipart.png",
+      "smallImageUrl": "https://www.pngall.com/wp-content/uploads/2/White-Sneakers-PNG-Clipart.png",
+      "thumbUrl": "https://www.pngall.com/wp-content/uploads/2/White-Sneakers-PNG-Clipart.png"
+    },
+    "releaseDate": "2022-12-15",
+    "retailPrice": 2000,
+    "styleId": "style1",
+    "shoe": "shoe",
+    "name": "Nike Air",
+    "title": "Nike Air",
+    "year": 2019
+  },
+  {
+    "id": "3",
+    "brand": "Nike",
+    "colorway": "White",
+    "gender": "Male",
+    "media": {
+      "imageUrl": "https://www.pngall.com/wp-content/uploads/2/White-Sneakers-PNG-Clipart.png",
+      "smallImageUrl": "https://www.pngall.com/wp-content/uploads/2/White-Sneakers-PNG-Clipart.png",
+      "thumbUrl": "https://www.pngall.com/wp-content/uploads/2/White-Sneakers-PNG-Clipart.png"
+    },
+    "releaseDate": "2022-12-15",
+    "retailPrice": 2000,
+    "styleId": "style1",
+    "shoe": "shoe",
+    "name": "Nike Air",
+    "title": "Nike Air",
+    "year": 2019
+  },
+  {
+    "id": "4",
+    "brand": "Nike",
+    "colorway": "White",
+    "gender": "Male",
+    "media": {
+      "imageUrl": "https://www.pngall.com/wp-content/uploads/2/White-Sneakers-PNG-Clipart.png",
+      "smallImageUrl": "https://www.pngall.com/wp-content/uploads/2/White-Sneakers-PNG-Clipart.png",
+      "thumbUrl": "https://www.pngall.com/wp-content/uploads/2/White-Sneakers-PNG-Clipart.png"
+    },
+    "releaseDate": "2022-12-15",
+    "retailPrice": 2000,
+    "styleId": "style1",
+    "shoe": "shoe",
+    "name": "Nike Air",
+    "title": "Nike Air",
+    "year": 2019
+  },
+  {
+    "id": "5",
+    "brand": "Nike",
+    "colorway": "White",
+    "gender": "Male",
+    "media": {
+      "imageUrl": "https://www.pngall.com/wp-content/uploads/2/White-Sneakers-PNG-Clipart.png",
+      "smallImageUrl": "https://www.pngall.com/wp-content/uploads/2/White-Sneakers-PNG-Clipart.png",
+      "thumbUrl": "https://www.pngall.com/wp-content/uploads/2/White-Sneakers-PNG-Clipart.png"
+    },
+    "releaseDate": "2022-12-15",
+    "retailPrice": 2000,
+    "styleId": "style1",
+    "shoe": "shoe",
+    "name": "Nike Air",
+    "title": "Nike Air",
+    "year": 2019
+  },
+  {
+    "id": "6",
+    "brand": "Nike",
+    "colorway": "White",
+    "gender": "Male",
+    "media": {
+      "imageUrl": "https://www.pngall.com/wp-content/uploads/2/White-Sneakers-PNG-Clipart.png",
+      "smallImageUrl": "https://www.pngall.com/wp-content/uploads/2/White-Sneakers-PNG-Clipart.png",
+      "thumbUrl": "https://www.pngall.com/wp-content/uploads/2/White-Sneakers-PNG-Clipart.png"
+    },
+    "releaseDate": "2022-12-15",
+    "retailPrice": 2000,
+    "styleId": "style1",
+    "shoe": "shoe",
+    "name": "Nike Air",
+    "title": "Nike Air",
+    "year": 2019
+  },
+  {
+    "id": "7",
+    "brand": "Nike",
+    "colorway": "White",
+    "gender": "Male",
+    "media": {
+      "imageUrl": "https://www.pngall.com/wp-content/uploads/2/White-Sneakers-PNG-Clipart.png",
+      "smallImageUrl": "https://www.pngall.com/wp-content/uploads/2/White-Sneakers-PNG-Clipart.png",
+      "thumbUrl": "https://www.pngall.com/wp-content/uploads/2/White-Sneakers-PNG-Clipart.png"
+    },
+    "releaseDate": "2022-12-15",
+    "retailPrice": 2000,
+    "styleId": "style1",
+    "shoe": "shoe",
+    "name": "Nike Air",
+    "title": "Nike Air",
+    "year": 2019
+  }
+]

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ui.views.fragment.SneakerFragment">
+
+    <ImageView
+        android:id="@+id/iv_thumbnail"
+        android:layout_width="220dp"
+        android:layout_height="150dp"
+        android:layout_margin="@dimen/dp_32"
+        app:layout_constraintBottom_toTopOf="@id/cv_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="@dimen/dp_16"
+        app:cardElevation="@dimen/dp_16"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv_thumbnail">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cv_info"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="@dimen/dp_32">
+
+            <TextView
+                android:id="@+id/tv_title"
+                style="@style/styleCaptionText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_16"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Adiddas Shoes" />
+
+            <TextView
+                android:id="@+id/tv_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_8"
+                android:fontFamily="@font/montserrat_light"
+                android:text="@string/description"
+                android:textColor="@color/grey"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_title" />
+
+            <TextView
+                android:id="@+id/tv_shoe_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_16"
+                android:fontFamily="@font/montserrat_light"
+                android:text="@string/size_uk"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/sp_18"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_description" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_size_7"
+                style="@style/styleSizeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shoe_size_selector"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:text="@string/size_7"
+                app:layout_constraintEnd_toStartOf="@id/btn_size_8"
+                app:layout_constraintStart_toEndOf="@id/tv_shoe_size"
+                app:layout_constraintTop_toBottomOf="@id/tv_description" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_size_8"
+                style="@style/styleSizeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shoe_size_selector"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:text="@string/size_8"
+                app:layout_constraintEnd_toStartOf="@id/btn_size_9"
+                app:layout_constraintStart_toEndOf="@id/btn_size_7"
+                app:layout_constraintTop_toBottomOf="@id/tv_description" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_size_9"
+                style="@style/styleSizeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shoe_size_selector"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:text="@string/size_9"
+                app:layout_constraintStart_toEndOf="@id/btn_size_8"
+                app:layout_constraintTop_toBottomOf="@id/tv_description" />
+
+            <TextView
+                android:id="@+id/tv_shoe_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_16"
+                android:fontFamily="@font/montserrat_light"
+                android:text="@string/color"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/sp_18"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_shoe_size" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/btn_color_peach"
+                android:layout_width="@dimen/dp_40"
+                android:layout_height="@dimen/dp_30"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="@dimen/dp_16"
+                app:cardBackgroundColor="@color/peach"
+                app:cardCornerRadius="8dp"
+                app:layout_constraintStart_toEndOf="@id/tv_shoe_color"
+                app:layout_constraintStart_toStartOf="@id/btn_size_7"
+                app:layout_constraintTop_toBottomOf="@id/btn_size_7" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/btn_color_navy"
+                android:layout_width="@dimen/dp_40"
+                android:layout_height="@dimen/dp_30"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="@dimen/dp_16"
+                app:cardBackgroundColor="@color/navy"
+                app:cardCornerRadius="8dp"
+                app:layout_constraintStart_toEndOf="@id/btn_color_peach"
+                app:layout_constraintTop_toBottomOf="@id/btn_size_8" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/btn_color_aqua"
+                android:layout_width="@dimen/dp_40"
+                android:layout_height="@dimen/dp_30"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="@dimen/dp_16"
+                app:cardBackgroundColor="@color/aqua"
+                app:cardCornerRadius="8dp"
+                app:layout_constraintStart_toEndOf="@id/btn_color_navy"
+                app:layout_constraintTop_toBottomOf="@id/btn_size_7" />
+
+            <TextView
+                android:id="@+id/tv_shoe_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_25"
+                android:fontFamily="@font/montserrat_light"
+                android:text="@string/price"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/sp_18"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/btn_color_peach" />
+
+            <TextView
+                android:id="@+id/tv_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_25"
+                android:fontFamily="@font/montserrat_semibold"
+                android:textColor="@color/peach"
+                android:textSize="@dimen/sp_18"
+                app:layout_constraintStart_toEndOf="@id/tv_shoe_price"
+                app:layout_constraintTop_toBottomOf="@id/btn_color_peach"
+                tools:text="$199" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_add_to_cart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dp_25"
+                android:backgroundTint="@color/peach"
+                android:fontFamily="@font/montserrat_regular"
+                android:paddingHorizontal="@dimen/dp_20"
+                android:text="@string/add_to_cart"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_18"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/btn_color_aqua" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

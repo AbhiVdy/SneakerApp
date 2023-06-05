@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SneakerApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="cart">Cart</string>
+    <string name="sneakership">sneakership</string>
+    <string name="popular">Popular</string>
+    <string name="color">Color :</string>
+    <string name="size_9">9</string>
+    <string name="size_8">8</string>
+    <string name="size_7">7</string>
+    <string name="size_uk">Size (uk) :</string>
+    <string name="description">Lorem ipsum dolor sit amet</string>
+    <string name="price">Price :</string>
+    <string name="add_to_cart">Add To Cart</string>
+    <string name="no_items_added_in_cart">No items added in cart...</string>
+    <string name="order_details">Order Details</string>
+    <string name="taxes_and_charges_40">Taxes and Charges : $40</string>
+    <string name="total">Total :</string>
+    <string name="checkout">Checkout</string>
+</resources>
